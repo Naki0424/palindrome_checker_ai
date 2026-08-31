@@ -20,12 +20,12 @@ form.addEventListener('submit', async (event) => {
     let resultWord = isPalindrome(word) ? "Word is a palindrome" : "Not a palindrome";
 
     //Connection to RAPID API Urban Dictionary
-    const url = `https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=${word}`;
+    const url = `https://urban-dictionary7.p.rapidapi.com/v0/define?term=${word}`;
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '5e863294damshf24c1ceb1dba2e9p17223djsn9efabe82a2b4',
-            'x-rapidapi-host': 'mashape-community-urban-dictionary.p.rapidapi.com'
+            'x-rapidapi-key': '7a8a1a57c2msh215be82905b8545p1011bfjsnb',
+            'x-rapidapi-host': 'urban-dictionary7.p.rapidapi.com'
         }
     };
 

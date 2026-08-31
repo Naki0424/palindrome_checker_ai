@@ -24,7 +24,7 @@ form.addEventListener('submit', async (event) => {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '7a8a1a57c2msh215be82905b8545p1011bfjsnb',
+            'x-rapidapi-key': '7a8a1a57c2msh215be82905b8545p1011bfjsnbdc658bcc040',
             'x-rapidapi-host': 'urban-dictionary7.p.rapidapi.com'
         }
     };
